@@ -1,4 +1,5 @@
 import React from "react";
+
 import search from "../assets/icons/other-icons/search.svg";
 import filter from "../assets/icons/other-icons/filter.svg";
 import lara from "../assets/profile-img/lara-liones.png";
@@ -11,8 +12,6 @@ import share from "../assets/icons/other-icons/share.svg";
 import image2 from "../assets/img/card-img/image-2.png";
 import image3 from "../assets/img/card-img/image-3.png";
 import star from "../assets/icons/other-icons/star.svg";
-
-
 
 let MainContent = () => {
   return (
@@ -80,7 +79,7 @@ let MainContent = () => {
           {/* image section */}
           <div className="px-3  m-3 py-4 relative">
             <img src={laraImage} alt="" className="w-full " />
-            <img src={heart} alt="" className="absolute top-10 right-10"/>
+            <img src={heart} alt="" className="absolute top-10 right-10" />
           </div>
 
           {/* border */}
@@ -148,7 +147,7 @@ let MainContent = () => {
           {/* image section */}
           <div className="px-3  m-3 py-4 relative">
             <img src={thomasImage} alt="" className="w-full" />
-            <img src={heart} alt="" className=" absolute top-10 right-10"/>
+            <img src={heart} alt="" className=" absolute top-10 right-10" />
           </div>
 
           {/* border */}
@@ -170,7 +169,11 @@ let MainContent = () => {
             </div>
           </div>
         </div>
+
+        {/* footer sections */}
+
         <div className="flex justify-evenly">
+          {/* card-1 */}
           <div className="mx-3 flex flex-col gap-y-4">
             <img src={image2} alt="" className="" />
             <span>Modern Wall Decor Framed Painting</span>
@@ -185,6 +188,7 @@ let MainContent = () => {
             </span>
           </div>
 
+          {/* card-1 */}
           <div className="mx-3 flex flex-col gap-y-4">
             <img src={image3} alt="" className="" />
             <span>Modern Wall Decor Framed Painting</span>
@@ -199,6 +203,8 @@ let MainContent = () => {
             </span>
           </div>
         </div>
+
+        {/* for putting some padding in vertical directions */}
         <div className="my-20"></div>
       </div>
     </React.Fragment>

@@ -11,10 +11,11 @@ import notification from "../assets/icons/nav-icons/notification.svg";
 import logout from "../assets/icons/nav-icons/logout.svg";
 
 let Navbar = () => {
+  //local state
   let [flag, setFlag] = useState({
     proprt: "hidden",
   });
-
+  //event handller function
   let clickNavToggle = () => {
     setFlag({
       proprt: flag.proprt === "hidden" ? "block" : "hidden",
@@ -25,6 +26,7 @@ let Navbar = () => {
     <div>
       <div className="    lg:w-56  lg:min-h-screen mx-3">
         <div className=" flex items-center pl-10 py-4 rounded-md bg-white mb-6 ">
+          {/* bar icons */}
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -153,6 +155,8 @@ let Navbar = () => {
               </li>
             </ul>
           </div>
+          {/*......................... Logout.............................. */}
+
           <div className="absolute bottom-7">
             <ul>
               <li className="pb-4">

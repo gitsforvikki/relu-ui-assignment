@@ -18,11 +18,13 @@ let Photographer = () => {
           <div className="sellerClass text-white px-4 py-6 mx-3 mb-6  rounded-md text-center">
             <span>Become a Seller</span>
           </div>
+
           {/* Artist section */}
           <div className="flex gap-x-3  pb-4 mx-3">
             <span>Artists</span>
             <span className="text-sm text-gray-500">Photographer</span>
           </div>
+
           {/* photo-card section */}
           <div className="flex flex-col gap-y-6">
             {/* card-1 */}
@@ -40,6 +42,7 @@ let Photographer = () => {
                 </div>
               </div>
             </div>
+
             {/* card-2 */}
             <div className="relative mx-3 ">
               <img src={card2} alt="" className="w-full" />
@@ -55,6 +58,7 @@ let Photographer = () => {
                 </div>
               </div>
             </div>
+
             {/* card-3 */}
             <div className="relative mx-3 ">
               <img src={card3} alt="" className="w-full" />
@@ -87,7 +91,7 @@ let Photographer = () => {
               </div>
             </div>
 
-            {/* card-4 */}
+            {/* card-5 */}
             <div className="relative mx-3">
               <img src={card5} alt="" className="w-full" />
               <div className="absolute bottom-2 left-3">
